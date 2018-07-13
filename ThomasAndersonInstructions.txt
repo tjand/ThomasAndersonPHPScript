@@ -1,0 +1,19 @@
+Instructions to run the included php script
+
+1) Download the files ThomasAndersonForm.html and ThomasAndersonScript.php from https://github.com/tjand/ThomasAndersonPHPScript
+
+2) Add those files to the same directory in a php enabled webserver
+
+2.1) Alternatively you can setup a Development Server on your computer using these steps:
+2.2) Save the files to your computer in the same directory
+2.3) Navigate to the directory with the files in terminal
+2.4) Type  php -S localhost:8000 (on bash style terminals) to start the server
+
+3) Navigate to your ServerDomain/FilePath/ThomasAndersonForm.html or to http://localhost:8000/ThomasAndersonForm.html depending on what you did in step 2
+
+4) The form will appear in your browser, add any number of emails seperated by whitespace and press submit.
+
+5) The php script will run and print the unique list of email domains
+
+
+Note: The version of php I used when developing this script was 5.5.38
